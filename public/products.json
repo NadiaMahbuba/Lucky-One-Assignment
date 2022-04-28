@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Burger",
+        "img": "./burger.jpg",
+        "price": "250"
+    },
+    {
+        "id": 2,
+        "name": "Pizza",
+        "img": "./pizza.jpg",
+        "price": "700"
+    },
+    {
+        "id": 3,
+        "name": "Pasta",
+        "img": "./pasta.jpg",
+        "price": "550"
+    },
+    {
+        "id": 4,
+        "name": "Chicken fry",
+        "img": "./chicken_fry.jpg",
+        "price": "97"
+    },
+    {
+        "id": 5,
+        "name": "Fried Rice",
+        "img": "./fried_rice.jpg",
+        "price": "350"
+    },
+    {
+        "id": 6,
+        "name": "Biriyani",
+        "img": "./biryani.jpg",
+        "price": "450"
+    },
+    {
+        "id": 7,
+        "name": "Donut",
+        "img": "./donut.jpg",
+        "price": "90"
+    },
+    {
+        "id": 8,
+        "name": "Pastry",
+        "price": "120"
+    },
+    {
+        "id": 9,
+        "name": "Cold Coffee",
+        "img": "./cold_coffee.jpg",
+        "price": "120"
+    },
+    {
+        "id": 10,
+        "name": "Chocolate Ice Creame",
+        "img": "./chocolate_ice_creame.jpg",
+        "price": "120"
+    },
+    {
+        "id": 11,
+        "name": "Strawberry juice",
+        "img": "./Strawberry-Juice.jpg",
+        "price": "80"
+    },
+    {
+        "id": 12,
+        "name": "Mango juice",
+        "img": "./Mango-Juice-1.jpg",
+        "price": "75"
+    }
+]
