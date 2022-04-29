@@ -22,6 +22,7 @@ const Products = () => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
+    //choose one for me button function
     const addRandom = (products) => {
         const product = products[Math.floor(Math.random() * products.length)];
         setRandom(product);
@@ -30,9 +31,11 @@ const Products = () => {
     //     addRandom(cart);
     //     //toast(random.name);
     // }
+    //choose again button function
     const chooseAgain = () => {
         setCart([]);
     }
+    //delete the random name
     const deleteRandom = () => {
         setRandom('');
     }
@@ -63,7 +66,7 @@ const Products = () => {
                     className='btn-choice'>Choose 1 For Me</button>
 
                 {
-
+                    //showing the random name on ui
                     <div className='random-generate'>
                         <p>{random.name}</p>
                         <FontAwesomeIcon icon={faTrash} onClick={deleteRandom}></FontAwesomeIcon>
