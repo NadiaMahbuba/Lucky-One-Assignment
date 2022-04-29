@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products_summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.order_summary {
+    background-color: bisque;
+}
+
+.order_summary h3 {
+    color: crimson;
+
+}
+
+.btn-choice {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+}
+
+.btn-reset {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+}
+
+.random-generate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.random-generate p {
+    margin-right: 5px;
+    color: white;
+}

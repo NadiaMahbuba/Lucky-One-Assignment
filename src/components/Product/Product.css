@@ -1,0 +1,37 @@
+.product img {
+    width: 300px;
+    height: 286px;
+}
+
+.product {
+    background-color: blanchedalmond;
+    border: 3px solid pink;
+    width: 450px;
+
+}
+
+.product h3 {
+    color: coral;
+    font-size: 20px;
+}
+
+.product h4 {
+    color: brown;
+    font-weight: 700;
+}
+
+.btn-cart {
+    border: 0;
+    background-color: crimson;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}

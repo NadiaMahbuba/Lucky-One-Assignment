@@ -44,6 +44,7 @@
     {
         "id": 8,
         "name": "Pastry",
+        "img": "./pastry.jpg",
         "price": "120"
     },
     {
