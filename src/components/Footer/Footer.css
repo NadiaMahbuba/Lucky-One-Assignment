@@ -1,3 +1,7 @@
 .footer {
     background-color: antiquewhite;
 }
+
+.footer p {
+    font-size: 20px;
+}

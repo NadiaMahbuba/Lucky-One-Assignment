@@ -11,11 +11,17 @@
 
 .order_summary {
     background-color: bisque;
+    position: sticky;
+    z-index: 1;
+    right: 0;
+    top: 50px;
+    bottom: 269px;
+    width: 300px;
+    height: 500px;
 }
 
 .order_summary h3 {
     color: crimson;
-
 }
 
 .btn-choice {
@@ -46,4 +52,20 @@
 .random-generate p {
     margin-right: 5px;
     color: white;
+}
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .products_summary {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .order_summary {
+        width: 200px;
+    }
 }

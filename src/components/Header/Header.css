@@ -1,5 +1,14 @@
 .header {
     background-color: bisque;
-    color: black;
+    color: coral;
     font-weight: 600;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:688px) {
+    .header {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
 }
